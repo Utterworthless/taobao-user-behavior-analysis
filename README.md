@@ -52,7 +52,7 @@ reports/
 ├── interactive_funnel.html
 ├── cohort_retention_heatmap.png
 ├── daily_kpi_trend.csv
-└── rfm_segmentation.csv
+└── rfm_segmentation.csv.gz
 ```
 
 ---
@@ -89,4 +89,4 @@ reports/
 ├── interactive_funnel.html       # Plotly 动态交互式转化漏斗图
 ├── cohort_retention_heatmap.png  # Seaborn Cohort 留存率分析热力图
 ├── daily_kpi_trend.csv           # 导出至 Tableau 的日度 KPI 趋势数据
-└── rfm_segmentation.csv          # 用户分层与打分表
+└── rfm_segmentation.csv.gz          # 用户分层与打分表
