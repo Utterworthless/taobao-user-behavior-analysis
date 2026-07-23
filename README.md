@@ -1,4 +1,4 @@
-# 🛒 基于百万级淘宝日志的用户行为分析与 RFM 精细化运营项目
+# 🛒 基于亿级淘宝日志的用户行为分析与 RF 精细化运营项目
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-2.3-green.svg)
@@ -8,7 +8,54 @@
 本项目基于阿里天池 **98,914,484 条（约 1 亿条）** 真实电商用户行为日志，使用 **Python (Pandas, Plotly, Seaborn)** 进行全链路转化漏斗分析、路径归因研究、Cohort 留存率计算及 RF 用户价值分层，旨在为电商运营提供落地、可干预的决策方案。
 
 ---
+## Quick Start
 
+### 1. 克隆项目
+
+```bash
+git clone https://github.com/your-username/taobao-user-behavior-analysis.git
+cd taobao-user-behavior-analysis
+```
+
+### 2. 下载数据集
+
+从阿里天池下载 **UserBehavior.csv** 数据集，并将文件放置在项目根目录。
+
+项目目录结构如下：
+
+```text
+taobao-user-behavior-analysis/
+├── UserBehavior.csv
+├── main.py
+├── README.md
+└── reports/
+```
+
+### 3. 安装依赖
+
+建议使用 Python 3.13 或以上版本。
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly
+```
+
+### 4. 运行项目
+
+```bash
+python main.py
+```
+
+程序运行完成后，将自动在 `reports/` 目录生成分析结果，包括：
+
+```text
+reports/
+├── interactive_funnel.html
+├── cohort_retention_heatmap.png
+├── daily_kpi_trend.csv
+└── rfm_segmentation.csv
+```
+
+---
 ##  核心业务洞察 (Key Business Insights)
 
 ### 1. 用户决策耗时归因
