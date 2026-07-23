@@ -1,4 +1,4 @@
-# 🛒 基于亿级淘宝日志的用户行为分析与 RF 精细化运营项目
+# 🛒 基于亿级淘宝用户行为日志的用户行为分析与 RF 用户分层
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-2.3-green.svg)
